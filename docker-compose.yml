@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  cevor_ubuntu_image:
+    image: "ubuntu:focal"
+
+  cevor_nginx_image:
+    image: "nginx:1.21"
+
+  cevor_postgres_image:
+    image: "postgres:14-bullseye"
+
+  cevor_redis_image:
+    image: "redis:6.2-bullseye"
+  
+  cevor_mongo_image:
+    image: "mongo:5.0-focal"
+
+  cevor_node_image:
+    image: "node:16.10-bullseye-slim"
+
+  cevor_python_image:
+    image: "python:3.9-slim-bullseye"
