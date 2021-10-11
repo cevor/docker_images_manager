@@ -5,19 +5,19 @@ services:
     image: "ubuntu:focal"
 
   cevor_nginx_image:
-    image: "nginx:1.21"
+    image: "nginx:1.21-alpine"
 
   cevor_postgres_image:
-    image: "postgres:14-bullseye"
+    image: "postgres:14.0-alpine"
 
   cevor_redis_image:
-    image: "redis:6.2-bullseye"
+    image: "redis:6.2-alpine"
   
   cevor_mongo_image:
     image: "mongo:5.0-focal"
 
   cevor_node_image:
-    image: "node:16.10-bullseye-slim"
+    image: "node:16.10-alpine"
 
   cevor_python_image:
-    image: "python:3.9-slim-bullseye"
+    image: "python:3.9-bullseye"
