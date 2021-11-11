@@ -22,5 +22,5 @@ services:
   cevor_python_image:
     image: "python:3.9-bullseye"
 
-  cevor_ml_image:
-    image: "jupyter/tensorflow-notebook"
+  # cevor_ml_image:
+  #   image: "jupyter/tensorflow-notebook"
