@@ -8,7 +8,7 @@ services:
     image: "nginx:1.21-alpine"
 
   cevor_postgres_image:
-    image: "postgres:14.0-alpine"
+    image: "postgres:14.1-alpine"
 
   cevor_redis_image:
     image: "redis:6.2-alpine"
@@ -17,7 +17,7 @@ services:
     image: "mongo:5.0-focal"
 
   cevor_node_image:
-    image: "node:16.10-alpine"
+    image: "node:17.1-alpine"
 
   cevor_python_image:
     image: "python:3.9-bullseye"
