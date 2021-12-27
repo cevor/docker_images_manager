@@ -17,10 +17,13 @@ services:
     image: "mongo:5.0-focal"
 
   cevor_node_image:
-    image: "node:17.2-alpine"
+    image: "node:17.3-alpine"
 
   cevor_python_image:
     image: "python:3.10-bullseye"
 
+  cevor_miniconda:
+    image: "continuumio/miniconda3"
+  
   # cevor_ml_image:
   #   image: "jupyter/tensorflow-notebook"
