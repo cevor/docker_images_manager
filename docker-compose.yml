@@ -25,5 +25,8 @@ services:
   cevor_miniconda:
     image: "continuumio/miniconda3"
   
-  # cevor_ml_image:
-  #   image: "jupyter/tensorflow-notebook"
+  cevor_prometheus:
+    image: "prom/prometheus"
+
+  cevor_grafana:
+    image: "grafana/grafana"
