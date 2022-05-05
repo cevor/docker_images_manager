@@ -17,7 +17,7 @@ services:
     image: "mongo:5.0-focal"
 
   cevor_node_image:
-    image: "node:17.7-alpine"
+    image: "node:17.9-alpine"
 
   cevor_python_image:
     image: "python:3.10-bullseye"
