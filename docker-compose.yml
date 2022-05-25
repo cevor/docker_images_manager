@@ -2,22 +2,22 @@ version: "3.9"
 
 services:
   cevor_ubuntu_image:
-    image: "ubuntu:focal"
+    image: "ubuntu:jammy"
 
   cevor_nginx_image:
     image: "nginx:1.21-alpine"
 
   cevor_postgres_image:
-    image: "postgres:14.2-alpine"
+    image: "postgres:14.3-alpine"
 
   cevor_redis_image:
-    image: "redis:6.2-alpine"
+    image: "redis:7.0-alpine"
   
   cevor_mongo_image:
     image: "mongo:5.0-focal"
 
   cevor_node_image:
-    image: "node:17.9-alpine"
+    image: "node:lts-alpine"
 
   cevor_python_image:
     image: "python:3.10-bullseye"
