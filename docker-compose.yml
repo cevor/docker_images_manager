@@ -1,20 +1,14 @@
 version: "3.9"
 
 services:
-  cevor_ubuntu_image:
-    image: "ubuntu:jammy"
-
   cevor_nginx_image:
-    image: "nginx:1.21-alpine"
+    image: "nginx:alpine"
 
   cevor_postgres_image:
-    image: "postgres:14.3-alpine"
+    image: "postgres:alpine"
 
-  cevor_redis_image:
-    image: "redis:7.0-alpine"
-  
   cevor_mongo_image:
-    image: "mongo:5.0"
+    image: "mongo"
 
   cevor_node_image:
     image: "node:lts-alpine"
@@ -22,20 +16,5 @@ services:
   cevor_python_image:
     image: "python:3.10-bullseye"
 
-  cevor_php_image:
-    image: php:8.1-fpm
-
-  cevor_phpmyadmin_image:
-    image: phpmyadmin:fpm-alpine
-
-  cevor_mysql_image:
-    image: mariadb:10.8
-
-  cevor_miniconda:
-    image: "continuumio/miniconda3"
-  
-  cevor_prometheus:
-    image: "prom/prometheus"
-
-  cevor_grafana:
-    image: "grafana/grafana"
+  cevor_rust:
+    image: "rust"
