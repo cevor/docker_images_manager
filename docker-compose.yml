@@ -7,14 +7,11 @@ services:
   cevor_postgres_image:
     image: "postgres:alpine"
 
-  cevor_mongo_image:
-    image: "mongo"
-
   cevor_node_image:
-    image: "node:lts-alpine"
+    image: "node:alpine"
 
   cevor_python_image:
-    image: "python:3.10-bullseye"
+    image: "python:slim"
 
   cevor_rust:
-    image: "rust"
+    image: "rust:slim"
