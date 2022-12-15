@@ -8,13 +8,13 @@ services:
     image: "postgres:15.1-alpine"
 
   cevor_node_image:
-    image: "node:19.2-alpine"
+    image: "node:19.3-alpine"
 
   cevor_python_image:
-    image: "python:3.10-bullseye"
+    image: "python:3.11-bullseye"
 
   cevor_rust:
     image: "rust:1.65-bullseye"
 
   cevor_ml_image:
-    image: "jupyter/tensorflow-notebook"
+    image: "jupyter/scipy-notebook"
