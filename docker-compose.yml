@@ -14,7 +14,4 @@ services:
     image: "python:3.11-bullseye"
 
   cevor_rust:
-    image: "rust:1.65-bullseye"
-
-  cevor_ml_image:
-    image: "jupyter/scipy-notebook"
+    image: "rust:1.66-bullseye"
