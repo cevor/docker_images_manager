@@ -2,10 +2,10 @@ version: "3.9"
 
 services:
   cevor_nginx_image:
-    image: "nginx:1.23-alpine"
+    image: "nginx:1.25-alpine"
 
   cevor_postgres_image:
-    image: "postgres:15.3-alpine"
+    image: "postgres:15.4-alpine"
 
   cevor_node_image:
     image: "node:lts-alpine"
@@ -14,4 +14,4 @@ services:
     image: "python:3.11-bullseye"
 
   cevor_rust:
-    image: "rust:1.69-bullseye"
+    image: "rust:1.71-bullseye"
