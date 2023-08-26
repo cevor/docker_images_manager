@@ -11,7 +11,7 @@ services:
     image: "node:lts-alpine"
 
   cevor_python_image:
-    image: "python:3.11-bullseye"
+    image: "python:3.11-bookworm"
 
   cevor_rust:
-    image: "rust:1.71-bullseye"
+    image: "rust:1.72-bookworm"
